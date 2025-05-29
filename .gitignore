@@ -1,0 +1,61 @@
+# ===== Binary files =====
+*.exe
+*.out
+*.o
+*.obj
+*.so
+*.a
+*.dll
+*.lib
+*.dylib
+
+# ===== Build folders =====
+build/
+bin/
+dist/
+
+# ===== Debugging files =====
+*.log
+*.gch
+*.lst
+*.map
+*.sym
+*.d
+
+# ===== Core dumps =====
+core
+*.core
+
+# ===== IDE/Editor-specific =====
+
+# VS Code
+.vscode/
+
+# CLion / JetBrains
+.idea/
+cmake-build-*/
+
+# Sublime
+*.sublime*
+
+# Eclipse
+.cproject
+.project
+.settings/
+
+# Code::Blocks
+*.depend
+*.layout
+*.cbp
+*.autosave
+
+# ===== OS-specific =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== Temporary files =====
+*.tmp
+*.bak
+*.swp
+*~
